@@ -32,7 +32,6 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 Verilog code:
 
 2 bit Multiplier:
-
 module HalfAdder(a,b,sum,carry);
 input a,b;
 output sum,carry;
