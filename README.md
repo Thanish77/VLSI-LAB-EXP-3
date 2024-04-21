@@ -49,16 +49,6 @@ and a4(w3,a[1],b[1]);
 HalfAdder h0(w1,w2,y[1],w4);
 HalfAdder h1(w3,w4,y[2],y[3]);
 endmodule
-module fadd(a,b,c,sum,carry);
-input a,b,c;
-output sum,carry;
-wire w1,w2,w3;
-xor g1(w1,a,b);
-and g2(w2,a,b);
-xor g3(sum,w1,c);
-and g4(w3,w1,c);
-or g5(carry,w3,w2);
-endmodule
 
 
 4 Bit Multiplier:
