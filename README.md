@@ -7,6 +7,7 @@ Xilinx 14.7
 Spartan6 FPGA
   
 **PROCEDURE:**
+```
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
@@ -18,6 +19,7 @@ STEP:8  Select Check Syntax from the Synthesize  XST Process. Double Click in th
 STEP:9  In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu.
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
+```
 
 **Logic Diagram**
 2 bit Multiplier
@@ -30,7 +32,7 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 
 
 Verilog code:
-
+```
 2 bit Multiplier:
 module HalfAdder(a,b,sum,carry);
 input a,b;
@@ -49,10 +51,10 @@ and a4(w3,a[1],b[1]);
 HalfAdder h0(w1,w2,y[1],w4);
 HalfAdder h1(w3,w4,y[2],y[3]);
 endmodule
-
+```
 
 4 Bit Multiplier:
-
+```
 module  ha (a,b,s,c);
 input a,b;
 output s,c;
@@ -87,6 +89,7 @@ fa fa6 (w[13],x[1]&y[3],w[15],z[4],w[16]);
 fa fa7 (w[14],x[2]&y[3],w[16], z[5],w[17]);
 fa fa8 (w[11],x[3]&y[3],w[17],z[6],z[7]);
 endmodule
+```
 
 output Waveform:
 
