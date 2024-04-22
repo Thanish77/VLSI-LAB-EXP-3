@@ -94,7 +94,10 @@ endmodule
 output Waveform:
 
 2 bit Multiplier:
-![image](https://github.com/Thanish77/VLSI-LAB-EXP-3/assets/161430773/536647c1-96a3-45d9-a612-e3665d32132f)
+
+
+
+   ![image](https://github.com/Thanish77/VLSI-LAB-EXP-3/assets/161430773/536647c1-96a3-45d9-a612-e3665d32132f)
 
 4 bit Multiplier:
 ![image](https://github.com/Thanish77/VLSI-LAB-EXP-3/assets/161430773/832ef455-5f5e-44c4-baf7-b5441a40d50d)
