@@ -6,7 +6,7 @@ SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 Xilinx 14.7
 Spartan6 FPGA
   
-**PROCEDURE:**
+# PROCEDURE:
 ```
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
@@ -22,7 +22,7 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 ```
 
 **Logic Diagram**
-2 bit Multiplier
+# 2 bit Multiplier
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
@@ -31,9 +31,10 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
 
-Verilog code:
+# Verilog code:
+
+# 2 bit Multiplier:
 ```
-2 bit Multiplier:
 module HalfAdder(a,b,sum,carry);
 input a,b;
 output sum,carry;
@@ -53,7 +54,7 @@ HalfAdder h1(w3,w4,y[2],y[3]);
 endmodule
 ```
 
-4 Bit Multiplier:
+# 4 Bit Multiplier:
 ```
 module  ha (a,b,s,c);
 input a,b;
@@ -91,16 +92,16 @@ fa fa8 (w[11],x[3]&y[3],w[17],z[6],z[7]);
 endmodule
 ```
 
-output Waveform:
+# output Waveform:
 
-2 bit Multiplier:
+# 2 bit Multiplier:
 
    ![image](https://github.com/Thanish77/VLSI-LAB-EXP-3/assets/161430773/536647c1-96a3-45d9-a612-e3665d32132f)
 
-4 bit Multiplier:
+# 4 bit Multiplier:
     
    ![image](https://github.com/Thanish77/VLSI-LAB-EXP-3/assets/161430773/832ef455-5f5e-44c4-baf7-b5441a40d50d)
 
-Result:
+# Result:
 
       Hence the 2 bit multiplier and 4 bit multiplier are simulated and synthesised using vivada
