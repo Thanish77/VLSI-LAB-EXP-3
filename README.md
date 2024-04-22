@@ -101,7 +101,6 @@ output Waveform:
     
    ![image](https://github.com/Thanish77/VLSI-LAB-EXP-3/assets/161430773/832ef455-5f5e-44c4-baf7-b5441a40d50d)
 
-
 Result:
 
       Hence the 2 bit multiplier and 4 bit multiplier are simulated and synthesised using vivada
